@@ -10,8 +10,13 @@ public class ClassA {
 		int b =20;
 		int c = a+b;
 		System.out.println("Addition : "+ c);
+
+		int d=c-a;
+		System.out.println(d);
+
 		System.out.println("Substraction : "+ c);
 		System.out.println("Divison : "+ c);
+
 	}
 
 }
